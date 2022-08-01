@@ -12,7 +12,7 @@ function App() {
       <Nav 
         setDarkMode={setDarkMode}
         darkMode={darkMode}
-        isDark={windowThemeDark}
+        isDark={css.isDark}
       />
     </div>
   );

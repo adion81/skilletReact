@@ -3,7 +3,8 @@ const css = {
                 p-1 py-2 w-screen 
                 bg-slate-100
                 dark:bg-slate-900 
-                dark:text-white`,
+                dark:text-white
+                sticky`,
     h1: `text-5xl text-center lg:text-3xl 
         text-slate-900 dark:text-slate-50`,
     menuIcon: `text-5xl`,

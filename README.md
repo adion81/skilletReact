@@ -1,8 +1,18 @@
 # Installation
 Make sure to have these versions globally installed
+
 Node --version 16.16.0
+
 npm --version 8.15.1
 
+## Install packages
+cd repo folder
+
+run `npm install`
+
+## Start up server
+cd into repo folder
+run `npm run start`
 
 
 

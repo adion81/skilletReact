@@ -2,10 +2,9 @@ import './App.css';
 import {useState} from 'react';
 import {Nav} from './components/exports';
 import css from './appStatic';
-const windowThemeDark = window.matchMedia('(prefers-color-scheme: dark)').matches
 
 function App() {
-  const [darkMode, setDarkMode] = useState(windowThemeDark);
+  const [darkMode, setDarkMode] = useState(css.isDark);
 
 
   return (

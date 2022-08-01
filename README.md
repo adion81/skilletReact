@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Installation
+Make sure to have these versions globally installed
+Node --version 16.16.0
+npm --version 8.15.1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 

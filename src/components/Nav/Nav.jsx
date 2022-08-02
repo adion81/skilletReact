@@ -1,31 +1,22 @@
-import {Switch} from '@material-ui/core';
-import MenuTwoToneIcon from '@material-ui/icons/MenuTwoTone';
 import css from './navStatic';
+import {LightBulbIcon, MenuIcon} from '@heroicons/react/solid';
 
-const Nav = ({setDarkMode, darkMode, isDark}) => {
+const Nav = ({setDarkMode, darkMode}) => {
     return(
         <div className={css.wrapper}>
-            <MenuTwoToneIcon fontSize="large" />
+            <MenuIcon 
+                className={css.menuIcon}
+            />
             <h1 className={css.h1}>
                 S
                 <span className={css.spanK}>K</span>
                 ILLET
             </h1>
-            {
-                isDark ?
-                <Switch 
-                    className={css.switch}
-                    color="primary"
-                    onChange={() => setDarkMode(!darkMode)}
-                    defaultChecked
-                /> :
-                <Switch 
-                    className={css.switch}
-                    color="primary"
-                    onChange={() => setDarkMode(!darkMode)}
-                />
+            <LightBulbIcon 
+                className={css.switch}
+                onClick={() => setDarkMode(!darkMode)}
+            />
 
-            }
 
 
         </div>

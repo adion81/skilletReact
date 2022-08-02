@@ -15,6 +15,11 @@ cd into repo folder
 
 run `npm run start`
 
+## Package Library Documentation
+
+[Hero Icons](https://github.com/tailwindlabs/heroicons)
+[TailwindCss](https://tailwindcss.com/docs/installation)
+[ReactRouter](https://reactrouter.com/docs/en/v6/getting-started/overview)
 
 
 ## Available Scripts

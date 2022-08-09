@@ -2,7 +2,7 @@ const css = {
     wrapper :   `flex justify-between items-center
                 px-2 py-1 w-screen 
                 bg-slate-100
-                dark:bg-slate-900 
+                dark:bg-slate-800 
                 dark:text-white
                 sticky top-0
                 border-b dark:border-slate-500`,

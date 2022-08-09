@@ -23,13 +23,10 @@ function App() {
           toggle:menuActive
         }}
       />
-      {
-        menuActive ?
-          <ProfileMenu
-            setDarkMode={setDarkMode}
-            darkMode={darkMode}
-          /> : null
-      }
+      <ProfileMenu
+        setDarkMode={setDarkMode}
+        darkMode={darkMode}
+        isActive={menuActive} />
       <Routes>
         <Route index element={<Home/>} />
       </Routes>

@@ -1,15 +1,15 @@
 const css = {
     wrapper :   `flex justify-between items-center
-                px-2 py-2 w-screen 
+                px-2 py-1 w-screen 
                 bg-slate-100
-                dark:bg-slate-900 
+                dark:bg-slate-800 
                 dark:text-white
-                sticky`,
+                sticky top-0
+                border-b dark:border-slate-500`,
     h1: `text-5xl text-center lg:text-3xl 
         text-slate-900 dark:text-slate-50`,
-    menuIcon: `w-10`,
+    menuIcon: `w-8 cursor-pointer hover:bg-orange-500/25`,
     spanK: `text-orange-500`,
-    switch: `text-gray-600 dark:bg-slate-900 dark:text-amber-300 w-10 cursor-pointer`
 }
 
 module.exports = css;

@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-
+server/virtualenvironment
 /node_modules
 ui/node_modules
 /.pnp
@@ -12,6 +12,7 @@ ui/node_modules
 
 # production
 /build
+server/src/skillet.egg-info
 
 # misc
 .DS_Store

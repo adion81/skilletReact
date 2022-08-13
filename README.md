@@ -1,3 +1,7 @@
+# ******************************************************************************
+# FRONT END
+# ******************************************************************************
+
 # Installation
 Make sure to have these versions globally installed
 
@@ -90,3 +94,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# ******************************************************************************
+# SERVER SIDE
+# ******************************************************************************
+
+# Python setup
+
+Install Python v 3.10.6 in the os environment
+
+```
+python -m venv server/virtualenvironment/skillet
+source server/virtualenvironment/skillet/Scripts/activate
+cd server
+pip install -r requirements.txt
+```
